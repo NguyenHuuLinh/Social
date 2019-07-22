@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.2cce8147.chunk.css",
-    "main.js": "/static/js/main.d18230e8.chunk.js",
-    "main.js.map": "/static/js/main.d18230e8.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.2079a4b4.chunk.js": "/static/js/2.2079a4b4.chunk.js",
-    "static/js/2.2079a4b4.chunk.js.map": "/static/js/2.2079a4b4.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.5b4d69a0149a0a72cad168e5ee9321d4.js": "/precache-manifest.5b4d69a0149a0a72cad168e5ee9321d4.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/static/css/main.2cce8147.chunk.css.map"
+    "main.css": "/NguyenHuuLinh/Social/static/css/main.2cce8147.chunk.css",
+    "main.js": "/NguyenHuuLinh/Social/static/js/main.63b94b1a.chunk.js",
+    "main.js.map": "/NguyenHuuLinh/Social/static/js/main.63b94b1a.chunk.js.map",
+    "runtime~main.js": "/NguyenHuuLinh/Social/static/js/runtime~main.4556f2fc.js",
+    "runtime~main.js.map": "/NguyenHuuLinh/Social/static/js/runtime~main.4556f2fc.js.map",
+    "static/js/2.2079a4b4.chunk.js": "/NguyenHuuLinh/Social/static/js/2.2079a4b4.chunk.js",
+    "static/js/2.2079a4b4.chunk.js.map": "/NguyenHuuLinh/Social/static/js/2.2079a4b4.chunk.js.map",
+    "index.html": "/NguyenHuuLinh/Social/index.html",
+    "precache-manifest.de8d868f4523234ff6290323380896e5.js": "/NguyenHuuLinh/Social/precache-manifest.de8d868f4523234ff6290323380896e5.js",
+    "service-worker.js": "/NguyenHuuLinh/Social/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "/NguyenHuuLinh/Social/static/css/main.2cce8147.chunk.css.map"
   }
 }

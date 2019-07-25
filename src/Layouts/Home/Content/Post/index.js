@@ -53,9 +53,9 @@ class Post extends React.Component {
                                         {item.caption}
                                     </p>
                                     <img className="w-full h-64 px-4 py-4" style={{ "borderRadius": "16px" }} src={item.images.orig.url} alt="" />
-                                    <div class="flex mb-4">
-                                        <div class="ion-android-favorite-outline w-1/2 h-12 text-black"><p className="ml-2 inline-block">{index}</p></div>
-                                        <div class="ion-ios-chatbubble-outline w-1/2 h-12 text-black"><p className="ml-2 inline-block">{index + 1}</p></div>
+                                    <div className="flex mb-4">
+                                        <div className="ion-android-favorite-outline w-1/2 h-12 text-black"><p className="ml-2 inline-block">{index}</p></div>
+                                        <div className="ion-ios-chatbubble-outline w-1/2 h-12 text-black"><p className="ml-2 inline-block">{index + 1}</p></div>
                                     </div>
                                 </div>
                             </div>

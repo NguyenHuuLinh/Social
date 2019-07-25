@@ -24,10 +24,10 @@ class Home extends React.Component {
         return (
             <>
                 <div className="flex flex-wrap">
-                    <div className="w-full h-full md:w-1/3 bg-gray-300 p-4 text-center text-gray-700">
+                    <div className="w-full h-full md:w-1/3 bg-gray-300 p-4 text-center text-gray-700 mt-12">
                         <Slidebar />
                     </div>
-                    <div className="w-full md:w-2/3 bg-gray-300 p-4 text-center text-gray-200">
+                    <div className="w-full md:w-2/3 bg-gray-300 p-4 text-center text-gray-200 mt-12">
                         <CreatePost onClickCreatePost={this.showModalCreate}/>
                         {this.state.isShowModalCreate && <ModalCreatePost/>}
                         <Post />

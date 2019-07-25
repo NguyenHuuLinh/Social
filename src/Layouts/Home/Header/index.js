@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 class Header extends React.Component {
     render() {
         return (
-            <div className="bg-black w-full">
+            <div className="bg-black w-full fixed">
                 <div className="text-gray-200">
                     <i className="ion-android-home inline-block ml-12 my-4">
                         <p className="inline-block ml-2 font-bold not-italic">

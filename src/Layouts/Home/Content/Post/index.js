@@ -29,11 +29,6 @@ class Post extends React.Component {
             dataPost
         } = this.state
 
-        // return(
-        //     <div>
-        //         aaa
-        //     </div>
-        // )
         if (!isLoad) {
             return (
                 <div>Loading...</div>

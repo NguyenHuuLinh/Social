@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/bin/node /usr/share/yarn/bin/yarn.js add express-favicon
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add firebase
 
 PATH: 
   /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: EACCES: permission denied, unlink '/home/linh/Training/Social/node_modules/.bin/acorn'
+  Error: EACCES: permission denied, mkdir '/home/linh/Training/Social/node_modules/sockjs/node_modules/faye-websocket'
 
 npm manifest: 
   {
@@ -23,6 +23,7 @@ npm manifest:
     "private": true,
     "homepage": "https://nguyenhuulinh.github.io/Social",
     "dependencies": {
+      "express-favicon": "^2.0.1",
       "gh-pages": "^2.0.1",
       "react": "^16.8.6",
       "react-dom": "^16.8.6",
@@ -30,7 +31,7 @@ npm manifest:
       "react-scripts": "3.0.1"
     },
     "scripts": {
-      "start": "node server.js",
+      "start": "react-scripts start",
       "predeploy": "yarn run build",
       "deploy": "gh-pages -d build",
       "build": "react-scripts build",
@@ -3817,6 +3818,11 @@ Lockfile:
       jest-matcher-utils "^24.8.0"
       jest-message-util "^24.8.0"
       jest-regex-util "^24.3.0"
+  
+  express-favicon@^2.0.1:
+    version "2.0.1"
+    resolved "https://registry.yarnpkg.com/express-favicon/-/express-favicon-2.0.1.tgz#6d852a1bc576ac72db006d3550cc09b23a96eef7"
+    integrity sha512-KZZF9lIUKU9lkyZM/7AVql7qeXA6EVkHCU5rGU4NvgbWNcYFn6zvCw3cwS5IY/vvP+MzVNVvBABnWfaVZoy7bQ==
   
   express@^4.16.2:
     version "4.16.4"

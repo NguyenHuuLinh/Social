@@ -11,6 +11,7 @@ const Social = () => (
         <Route exact path="/" component={Home}/>
         <Route exact path="/search" component={Search}/>
         <Route exact path="/profile" component={Profile}/>
+        {/* <Route exact path="/logout" component={}/> */}
     </Switch>
 )
 

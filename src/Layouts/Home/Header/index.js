@@ -1,7 +1,13 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import fire from '../../../Firebase';
 
 class Header extends React.Component {
+
+    logout = () => {
+        fire.auth().signOut();
+    }
+
     render() {
         return (
             <div className="bg-black w-full fixed">
@@ -22,7 +28,7 @@ class Header extends React.Component {
                         </p>
                     </i>
                     <p className="float-right inline-block my-4 mr-12">
-                        Logout
+                    <button onClick = {this.logout}>Logout</button>
                     </p>
                 </div>
             </div>

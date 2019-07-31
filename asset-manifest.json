@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/Social/static/css/main.85b607a5.chunk.css",
-    "main.js": "/Social/static/js/main.e3e2f184.chunk.js",
+    "main.js": "/Social/static/js/main.3a0c51f1.chunk.js",
     "runtime~main.js": "/Social/static/js/runtime~main.3e47c0be.js",
-    "static/js/2.2079a4b4.chunk.js": "/Social/static/js/2.2079a4b4.chunk.js",
+    "static/js/2.774a3317.chunk.js": "/Social/static/js/2.774a3317.chunk.js",
     "index.html": "/Social/index.html",
-    "precache-manifest.b954130dd54dd2eab540272d5acc2603.js": "/Social/precache-manifest.b954130dd54dd2eab540272d5acc2603.js",
+    "precache-manifest.2ba3aae6801161f5cb767d77d67b6e09.js": "/Social/precache-manifest.2ba3aae6801161f5cb767d77d67b6e09.js",
     "service-worker.js": "/Social/service-worker.js"
   }
 }
